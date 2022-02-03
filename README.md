@@ -27,7 +27,7 @@ Command:
 tools/dist_train.sh configs/mae/upernet_mae_base_12_512_slide_160k_ade20k.py 8 --seed 0  --options model.pretrained=https://dl.fbaipublicfiles.com/mae/pretrain/mae_pretrain_vit_base.pth
 ```
 
-Expected results (paper results: 48.1 mIoU):
+Expected results [log](https://github.com/implus/mae_segmentation/tree/main/log/20220131_012835.log)(paper results: 48.1 mIoU):
 ```
 +--------+-------+-------+-------+
 | Scope  | mIoU  | mAcc  | aAcc  |

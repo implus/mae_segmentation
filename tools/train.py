@@ -17,11 +17,7 @@ from mmseg.datasets import build_dataset
 from mmseg.models import build_segmentor
 from mmseg.utils import collect_env, get_root_logger
 
-from backbone import beit
 from backbone import mae
-
-from models.decode_heads import masked_uper_head, masked_fcn_head
-from models.segmentors import masked_encoder_decoder
 
 
 def parse_args():
